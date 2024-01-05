@@ -45,6 +45,7 @@
             this.btnPlus = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.txtScreen = new System.Windows.Forms.TextBox();
+            this.equlation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
@@ -219,12 +220,24 @@
             this.txtScreen.TabIndex = 16;
             this.txtScreen.Text = "0";
             // 
+            // equlation
+            // 
+            this.equlation.AutoSize = true;
+            this.equlation.BackColor = System.Drawing.SystemColors.Window;
+            this.equlation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.equlation.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.equlation.Location = new System.Drawing.Point(22, 25);
+            this.equlation.Name = "equlation";
+            this.equlation.Size = new System.Drawing.Size(0, 20);
+            this.equlation.TabIndex = 17;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(358, 233);
+            this.Controls.Add(this.equlation);
             this.Controls.Add(this.txtScreen);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnPlus);
@@ -270,6 +283,7 @@
         private System.Windows.Forms.Button btnPlus;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtScreen;
+        private System.Windows.Forms.Label equlation;
     }
 }
 
